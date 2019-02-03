@@ -1,0 +1,1 @@
+$(function(){$(".works-list .works-item").slice(0,4).show(),$("#works-loadmore").on("click",function(o){o.preventDefault(),$(".works-list .works-item:hidden").slice(0,4).slideDown(),0==$(".works-list .works-item:hidden").length&&$("#works-loadmore").fadeOut("slow")})});
